@@ -16,8 +16,9 @@ int main() {
             C[i][j] = 0;
         }
     }
-
+    
     printf("Matrices initialized successfully.\n");
+    
 
     matrixMultiply(A, B, C);
 
