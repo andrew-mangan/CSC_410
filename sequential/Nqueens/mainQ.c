@@ -11,9 +11,9 @@ int main() {
     for (int i = 0; i < n; i++) {
         board[i] = -1;
     }
-
+    
     solveNQueensUtil(board, 0, n);
-
+    printf("%d", board);    
     free(board);
     return 0;
 }
