@@ -19,19 +19,30 @@ for (int i = 0; i < 4; i++) {
        if (pid == 0) {
 
                     if (i==0){
-                    printf("Luke. Adjusting shield power. %d \n", i);
-
-                    printf("Han. Adjusting shield power.%d \n", i);
-                    printf("Chewbacca. Adjusting shield power.%d \n", i);
-                    printf("Leia. Adjusting shield power.%d \n", i);}
+                    printf("Luke. Adjusting shield power... \n");
                     Luke_power += 25;
-                    Han_power += 20;
-                    Chewy_power += 30;
-                    Leia_power += 25;
                     printf("Luke. power %d. \n", Luke_power);
-                    printf("Han. power %d.\n", Han_power);
+                    return 0;
+                    }
+                    else if(i==1){
+                    printf("Han. Adjusting shield power. \n");
+                    Han_power += 20;
+                    printf("Han. power %d%.\n", Han_power);
+                    return 0;
+                    }
+                    else if(i==2){
+                    printf("Chewbacca. Adjusting shield power.\n");
+                    Chewy_power += 30;
                     printf("Chewbacca. Power %d \n", Chewy_power);
+                    return 0;
+                    }
+                    else if(i==3){
+                    printf("Leia. Adjusting shield power. \n");
+                    Leia_power += 25;
                     printf("Leia. power %d. \n", Leia_power);
+                    return 0;
+                    }
+
                     return 0;
             }
     }
