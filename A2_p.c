@@ -27,7 +27,7 @@ for (int i = 0; i < 4; i++) {
                     else if(i==1){
                     printf("Han. Adjusting shield power. \n");
                     Han_power += 20;
-                    printf("Han. power %d%.\n", Han_power);
+                    printf("Han. power %d.\n", Han_power);
                     return 0;
                     }
                     else if(i==2){

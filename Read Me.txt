@@ -1,0 +1,4 @@
+This is read me file for Assignment 2.  This was a tricky one and I think I went around the intention with my IF/ELSE statements.  I kept seeing the printf statements loop for ever for loop in i.  I couldn't get each process to print one for each character.
+
+Andrew Mangan
+CSC 410
