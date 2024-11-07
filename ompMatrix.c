@@ -1,4 +1,4 @@
-#include "matrixMul.h"
+#include "ompmatrixMul.h"
 #include <stdlib.h>
 
 int main() {
@@ -16,7 +16,7 @@ int main() {
         for (int j = 0; j < N; ++j) {
             A[i][j] = randA;
             B[i][j] = randB;
-            C[i][j] = 0;
+            C[i][j] = 1;
         }
     }
     
@@ -35,7 +35,7 @@ int main() {
 
     // Display the resulting matrix C
     printf("Resulting Matrix C:\n");
-    //displayMatrix(C);
+    //isplayMatrix(C);
     printf("%d", N);
 
     return 0;
