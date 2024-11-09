@@ -1,0 +1,4 @@
+This is read me file for Assignment 4.  This one was interesting, having to find the correct dynamic, static, guided, etc. setup to compute PI correctly.
+
+Andrew Mangan
+CSC 410
