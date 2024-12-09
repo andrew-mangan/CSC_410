@@ -1,4 +1,4 @@
-This is read me file for Assignment 3 Part 1.  The for loops get me good with the matrices getting the right number of loops get all the spots filled with the math.  I keep getting the 2 numbers for my random number generator, it's off putting.
+This is read me file for Assignment 5.  This one was much harder then the rest.  My Processor is an older one and doesnt have multiple cores, nor am I familar with processor architecture as much as I want to be in order to manage processes in programming.
 
 Andrew Mangan
 CSC 410
