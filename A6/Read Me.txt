@@ -1,0 +1,3 @@
+This is read me file for Assignment 6.  This one was much harder then the rest.  As in I wrote this blind without having a proper run.  I had a GPU in my computer(laptop) go bad sometime ago, so I removed it.  I have the drivers for a physical GPU for my laptop but don't utilize it.  I does compile with no warnings and have copied code from several google searchs about the topic.  Scaling is still a mystery; the local and gloabal work sizes I don't completely understand, but every sample code I saw had it in there, my working theory is this is the paraellel working size instead of multiple threads.
+Andrew Mangan
+CSC 410
